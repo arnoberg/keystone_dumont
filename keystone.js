@@ -1,3 +1,4 @@
+//Code by Arno van den Berg, 2017, all rights reserved
 // Simulate config options from your production environment by
 // customising the .env file in your project's root folder.
 require('dotenv').config();
