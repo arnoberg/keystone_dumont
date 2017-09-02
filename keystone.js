@@ -77,3 +77,5 @@ if (!process.env.MAILGUN_API_KEY || !process.env.MAILGUN_DOMAIN) {
 
 
 keystone.start();
+
+// just to check
