@@ -12,8 +12,8 @@ var handlebars = require('express-handlebars');
 // and documentation.
 
 keystone.init({
-	'name': 'Dumont',
-	'brand': 'Dumont',
+	'name': 'Jugs&Jars',
+	'brand': 'Jugs^Jars',
 
 	'stylus': 'public',
 	'static': 'public',
@@ -64,7 +64,7 @@ keystone.set('nav', {
 
 // Start Keystone to connect to your database and initialise the web server
 
-
+//dit later doen als url en hosting locatie duidelijk is
 if (!process.env.MAILGUN_API_KEY || !process.env.MAILGUN_DOMAIN) {
 	console.log('----------------------------------------'
 	+ '\nWARNING: MISSING MAILGUN CREDENTIALS'
