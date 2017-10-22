@@ -24,8 +24,8 @@ module.exports = {
 
 		var newEnquiry = new Enquiry.model({
 			name: { first: 'Test', last: 'User' },
-			email: 'contact@dumont.com',
-			phone: '+61 2 1234 5678',
+			email: 'arvandenberg@gmail.com',
+			phone: '+316105615088',
 			enquiryType: 'message',
 			message: { md: 'Nice enquiry notification.' },
 		});

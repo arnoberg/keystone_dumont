@@ -17,7 +17,7 @@ Enquiry.add({
 	phone: { type: String },
 	enquiryType: { type: Types.Select, options: [
 		{ value: 'message', label: 'Just leaving a message' },
-		{ value: 'question', label: 'I\'ve got a question' },
+		{ value: 'question', label: 'I want to buy a product' },
 		{ value: 'other', label: 'Something else...' },
 	] },
 	message: { type: Types.Markdown, required: true },
